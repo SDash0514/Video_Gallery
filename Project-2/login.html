@@ -1,0 +1,44 @@
+<!--made by Subhashree Dash-->
+<!DOCTYPE html>
+<html>
+      <head>
+          <title>Login | Page</title>
+        <link rel="stylesheet" href="style.css" >
+      </head>
+      <body background="Images\background1.png" >
+
+        <div class="title-bar" >
+          <p>Login  Page</p>
+          </div>
+<p><br><br><br><br></p>
+
+        <div class="signup-page">
+            <div class="form">
+                <form method="post" action="VideoGallery.html" onsubmit="return valid();">
+                  <div class="register-form">
+
+                    <input type="text"id="1" placeholder="Enter user name"  pattern="[A-Za-z0-9]{1,15}" title="No special charcters.Max 15 characters." required>
+                    <input type="email" id="2"placeholder="Enter email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required>
+                    <input type="number" id="3"placeholder="Enter phone no" pattern=".{10}" title="Phone no should be of 10 digits" required>
+                    <input type="password" id="4"placeholder="Enter password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                    <button id="button"type="submit" >Login</button>
+
+                   </div>
+                </form>
+            </div>
+         </div>
+         <p><br><br><br><br><br></p>
+        <div class ="taskbar">
+          <p><center><font color="grey">copyrighted by S Dash</font></center></p>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="login.js"></script>
+
+      </body>
+  </html>

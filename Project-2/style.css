@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Metamorphous");
+
+body{
+  background-color: white;
+  /*background: url("D:\ATOM\KONNEXIONS PROJECT\pexels-photo-396547.jpeg") left top repeat;*/
+  font-family: "Roboto", sans-serif;
+}
+.title-bar{
+  padding: 40px;
+  border-bottom: 20px;
+  height:90px;
+  text-align: center;
+  background-color: black;
+  color: white;
+ opacity: .4;
+  font-family:"Metamorphous";
+  font-size: 35px;
+}
+
+
+.signup-page {
+  width: 360px;
+  /*padding: 8% 0 0;*/
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin: auto;
+}
+.form {
+  position: relative;
+  max-width: 360px;
+  margin: auto ;
+  padding: 45px;
+  text-align: center;
+  padding-bottom: 45px;
+  border-radius: 25px;
+   border: 2px;
+
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background:white;
+  width: 100%;
+  border-radius: 25px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0.5px;
+background-color: #ffffff;
+opacity: .4;
+  width: 100%;
+  border-radius: 25px ;
+  padding: 15px;
+
+  font-size: 14px;
+
+
+}
+
+.register-form{
+  word-break: keep-all;
+  display: inline-block;
+}
+
+.taskbar{
+  padding-top: 25px;
+    padding-bottom: 50px;
+    border-bottom: 20px silver;
+  height:10px;
+  text-align: center;
+  background-color: black;
+  opacity: .4;
+
+color: #ffffff;
+opacity:.4;
+  font-family:"Metamorphous";
+  font-size: 25px;
+}
